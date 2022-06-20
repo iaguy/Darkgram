@@ -147,15 +147,23 @@ body{
     .istagram-continue{
         width: 100%;
     }
+
+    .group{
+        border: transparent;
+        background-color: rgb(44, 42, 42);
+    }
+
 }
 
 @media(max-width: 350px){
     .group{
         padding: 3.5rem 0;
+        border: transparent;
+        background-color: rgb(44, 42, 42);
 
-    }
-    
+    }   
+       
     .baixe-app{
         display: none;
     }
-}
+} 
